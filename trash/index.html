@@ -1,0 +1,22 @@
+<?php
+	session_start();
+?>
+
+<html>
+	<head>
+		<h1> LOGIN PAGE </h1>
+	</head>
+
+	<body>
+		<form name="login" action="login.php" method="POST">
+			<br>Username: <input type="text" name="user_name"/> <br> <br>
+			<br>Password: <input type="password" name="pass_word"/> <br> <br>
+			<input type="submit" value="Login">
+		</form>
+		
+		<form name="register" action="register.php" method="GET">
+			<input type="submit" value="Register">
+		</form>
+	</body>
+
+</html>

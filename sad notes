@@ -1,0 +1,110 @@
+Here is what the server will look like
+
+
+
+1. Profile
+1.1. Edit profile /
+
+2. DTR
+2.1. Log in.
+2.2. log out
+2.3. save the login
+2.4. view table
+2.5. ADMIN - edit DTR
+
+3. Payroll
+3.1.a ADMIN - send email pdf
+3.1.b USER - view pdf
+
+
+4. Scheduling
+4.1.a View my schedule /
+4.1.b Admin - give user schedule 
+4.1.c Admin - edit user schedule
+4.1.d Admin - add subject /
+4.1.e Admin - edit subject /
+4.2. view all subjects /
+
+
+
+USER:
+
+1. id
+2. username
+3. password
+4. fullname
+5. email
+5. contact address
+
+SECTION OFFERING
+
+1. Courses
+2. subject code
+3. descrption
+4. section code
+5. units
+6. schedule
+
+SCHEDULING
+1. id
+2. course
+3. subject code
+4. schedule
+
+
+
+DTR
+1. date
+2. time in
+3. time out
+4. total time
+5. id
+
+
+SCHEDULE:
+
+just pick a subject id to add to the user
+
+get full name
+
+get subject details
+
+
+add the data to schedules table
+
+
+
+NEXT AGENDA:
+
+1. add delete user
+	- upon deleting user, delete all schedule that has user in it
+2. add delete subject
+	- upon deleting subject, delete all schedule that has subject in it
+3. add delete schedule
+	- delete row of the sched
+	
+LOOK UP class="form-control" required	
+	
+5. Payroll
+	- install composer
+	- install mpdf
+	- https://github.com/mpdf/mpdf
+	- install phpmailer
+	- https://github.com/PHPMailer/PHPMailer
+	
+https://youtu.be/MnIps8Yc8CY?t=700
+
+https://youtu.be/MnIps8Yc8CY?t=1032
+
+https://stackoverflow.com/questions/21937586/phpmailer-smtp-error-password-command-failed-when-send-mail-from-my-server
+
+https://www.lifewire.com/what-are-the-gmail-smtp-settings-1170854
+
+
+ADD ADMIN RESTRICTION TO SOME FILES, NOT YET ADDED
+
+
+
+
+*NOTES DEBUGG
+- diff day time in time out bug
